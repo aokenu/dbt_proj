@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: customer
+    description: 'A description of the source title'
+    database: demo_db
+    schema:  public
+    tables:
+      - name: jaffle_shop_customers
+      - name: jaffle_shop_orders
+      - name: stripe_payments
