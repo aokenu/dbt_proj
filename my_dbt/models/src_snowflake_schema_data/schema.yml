@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: sf_customer
+    description: 'A description of the source title'
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCDS_SF10TCL
+    tables:
+      - name: CUSTOMER
+      - name: WEB_SALES
+      - name: CUSTOMER_DEMOGRAPHICS
+      - name: CUSTOMER_ADDRESS
+      - name: HOUSEHOLS_DEMOGRAPHICS
+      - name: INCOME_BAND
